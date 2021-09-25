@@ -16,8 +16,9 @@ UWorldPosition::UWorldPosition()
 void UWorldPosition::BeginPlay()
 {
 	Super::BeginPlay();
-
-	// ...
+	UE_LOG(LogTemp, Display, TEXT("This is a testing!"));
+	UE_LOG(LogTemp, Warning, TEXT("This is a warning!"));
+	UE_LOG(LogTemp, Error, TEXT("This is a error!"));
 }
 
 // Called every frame
