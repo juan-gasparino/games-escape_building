@@ -1,11 +1,11 @@
 # EscapeBuilding
 
-Developed with Unreal Engine 4
+Developed with Unreal Engine 4.22.3
 
-# Task
+## Task
 
 - [x] 1.Setup project and gitignore
-- [ ] 2.Folow tutorial Pointer Syntax
-- [ ] 3.
+- [x] 2.Folow tutorial Pointer Syntax
+- [x] 3.Delete old or bad C++ files
 - [ ] 4.
 - [ ] 5.
