@@ -1,6 +1,5 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// JNX86 Productions Copyright.
 
 #pragma once
 
 #include "CoreMinimal.h"
-

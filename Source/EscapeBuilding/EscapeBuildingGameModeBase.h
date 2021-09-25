@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// JNX86 Productions Copyright.
 
 #pragma once
 
@@ -13,5 +13,4 @@ UCLASS()
 class ESCAPEBUILDING_API AEscapeBuildingGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
 };

@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// JNX86 Productions Copyright.
 
 #include "EscapeBuilding.h"
 #include "Modules/ModuleManager.h"
