@@ -1,6 +1,7 @@
 // JNX86 Productions Copyright.
 
 #include "WorldPosition.h"
+#include "GameFramework/Actor.h"
 
 // Sets default values for this component's properties
 UWorldPosition::UWorldPosition()
@@ -16,9 +17,25 @@ UWorldPosition::UWorldPosition()
 void UWorldPosition::BeginPlay()
 {
 	Super::BeginPlay();
-	UE_LOG(LogTemp, Display, TEXT("This is a testing!"));
-	UE_LOG(LogTemp, Warning, TEXT("This is a warning!"));
-	UE_LOG(LogTemp, Error, TEXT("This is a error!"));
+
+	// FString Log = TEXT("Hello!");
+	// FString* PrtLog = &Log;
+
+	// Log.Len();
+
+	// (*PrtLog).Len();
+
+	// PrtLog->Len();
+
+	// UE_LOG(LogTemp, Warning, TEXT("%s"), **PrtLog);
+
+	// const FString NameOwner = GetOwner()->GetName();
+	// UE_LOG(LogTemp, Warning, TEXT("%s"), *NameOwner);
+
+	UE_LOG(LogTemp, Warning, TEXT("%s"), *GetOwner()->GetName());
+	UE_LOG(LogTemp, Warning, TEXT("%s"), *GetOwner()->GetActorLocation().ToString());
+	UE_LOG(LogTemp, Warning, TEXT("%S"), *GetOwner()->GetActorTransform().ToString());
+
 }
 
 // Called every frame
