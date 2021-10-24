@@ -7,11 +7,10 @@
 #include "EscapeBuildingGameModeBase.generated.h"
 
 /**
- * 
- */
+* 
+*/
 UCLASS()
 class ESCAPEBUILDING_API AEscapeBuildingGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
 };
